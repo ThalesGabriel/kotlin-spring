@@ -1,8 +1,6 @@
-package br.com.zales.spring_kotlin_course.application.use_case
+package br.com.zales.spring_kotlin_course.application.useCases.math.convertStringNumbers
 
-import br.com.zales.spring_kotlin_course.core.model.use_case.UseCase
-import br.com.zales.spring_kotlin_course.core.model.use_case.convert_string_numbers.ConvertStringNumbersInput
-import br.com.zales.spring_kotlin_course.core.model.use_case.convert_string_numbers.ConvertStringNumbersOutput
+import br.com.zales.spring_kotlin_course.application.useCases.UseCase
 import org.springframework.stereotype.Component
 
 @Component

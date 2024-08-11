@@ -1,7 +1,6 @@
-package br.com.zales.spring_kotlin_course.application.use_case
+package br.com.zales.spring_kotlin_course.application.useCases.math.validateStringNumbers
 
-import br.com.zales.spring_kotlin_course.core.model.use_case.UseCase
-import br.com.zales.spring_kotlin_course.core.model.use_case.validate_string_numbers.ValidateStringNumbersInput
+import br.com.zales.spring_kotlin_course.application.useCases.UseCase
 import org.apache.coyote.BadRequestException
 import org.springframework.stereotype.Component
 

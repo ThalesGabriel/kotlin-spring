@@ -1,4 +1,4 @@
-package br.com.zales.spring_kotlin_course.core.model.use_case
+package br.com.zales.spring_kotlin_course.application.useCases
 
 interface UseCase<Input, Output> {
 

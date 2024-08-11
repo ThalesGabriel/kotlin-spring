@@ -1,6 +1,5 @@
-package br.com.zales.spring_kotlin_course.core.exception
+package br.com.zales.spring_kotlin_course.common
 
-import br.com.zales.spring_kotlin_course.core.model.exception.ExceptionResponse
 import org.apache.coyote.BadRequestException
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity

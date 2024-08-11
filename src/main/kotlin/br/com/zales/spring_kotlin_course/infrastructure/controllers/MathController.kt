@@ -1,6 +1,6 @@
-package br.com.zales.spring_kotlin_course.application.controller
+package br.com.zales.spring_kotlin_course.infrastructure.controllers
 
-import br.com.zales.spring_kotlin_course.application.service.MathService
+import br.com.zales.spring_kotlin_course.application.services.MathService
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.PathVariable

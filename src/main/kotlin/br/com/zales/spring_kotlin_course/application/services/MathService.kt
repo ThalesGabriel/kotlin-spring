@@ -1,9 +1,9 @@
-package br.com.zales.spring_kotlin_course.application.service
+package br.com.zales.spring_kotlin_course.application.services
 
-import br.com.zales.spring_kotlin_course.core.model.use_case.UseCase
-import br.com.zales.spring_kotlin_course.core.model.use_case.convert_string_numbers.ConvertStringNumbersInput
-import br.com.zales.spring_kotlin_course.core.model.use_case.convert_string_numbers.ConvertStringNumbersOutput
-import br.com.zales.spring_kotlin_course.core.model.use_case.validate_string_numbers.ValidateStringNumbersInput
+import br.com.zales.spring_kotlin_course.application.useCases.UseCase
+import br.com.zales.spring_kotlin_course.application.useCases.math.convertStringNumbers.ConvertStringNumbersInput
+import br.com.zales.spring_kotlin_course.application.useCases.math.convertStringNumbers.ConvertStringNumbersOutput
+import br.com.zales.spring_kotlin_course.application.useCases.math.validateStringNumbers.ValidateStringNumbersInput
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Service
 

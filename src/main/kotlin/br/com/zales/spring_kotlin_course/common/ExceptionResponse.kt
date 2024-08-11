@@ -1,4 +1,4 @@
-package br.com.zales.spring_kotlin_course.core.model.exception
+package br.com.zales.spring_kotlin_course.common
 
 import java.util.*
 
